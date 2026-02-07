@@ -16,12 +16,12 @@ let page = 0;
 let typing = false;
 
 const pages = [
-  { title: "Hey Lynnie 💕", text: "Hi goofball.\nYes, YOU.\n\nClick 💗" },
-  { title: "About You 🐠", text: "You trip on air.\nGoldfish memory.\n\nAnd somehow I adore you." },
-  { title: "Why You 💖", text: "You make me laugh.\nYou make ordinary days lighter." },
-  { title: "Memories We Made 📸", text: "Some of my favourite moments with you." },
+  { title: "Hey Lynnie 💕", text: "Hi goofball\nYes, YOU.\n\nClick 💗" },
+  { title: "About You 🌻", text: "You trip on air\nHave a goldfish memory\n\nYet somehow I adore every single thing about you." },
+  { title: "Why You 💖", text: "You make me smile and laugh everytime I think of you\nYou really supportive and caring for me" },
+  { title: "Memories We Made 📸", text: "Some of my favourite moments with you below <3" },
   { title: "One Last Thing 💌", text: "So I was wondering…" },
-  { title: "Lynnie 💘", text: "Will you be my Valentine?" }
+  { title: "Lynnie 💘", text: "Lynnie, will you be my Valentine?" }
 ];
 
 const titleEl = document.getElementById("title");
