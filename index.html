@@ -10,20 +10,21 @@
   <!-- Floating Hearts -->
   <div class="hearts"></div>
 
-  <!-- Background Music -->
+  <!-- Optional Background Music (safe even if file doesn't exist) -->
   <audio id="bgm" loop>
     <source src="music.mp3" type="audio/mpeg">
   </audio>
 
+  <!-- Main Card -->
   <div class="card" onclick="nextPage()">
     <h1 id="title"></h1>
     <p id="text"></p>
 
-    <!-- Photo Gallery -->
+    <!-- Photo Gallery (ONLY appears on memories page) -->
     <div id="gallery" class="gallery hidden">
-      <img src="photo1.jpg">
-      <img src="photo2.jpg">
-      <img src="photo3.jpg">
+      <img src="photo1.jpg" alt="Memory 1">
+      <img src="photo2.jpg" alt="Memory 2">
+      <img src="photo3.jpg" alt="Memory 3">
     </div>
 
     <!-- Valentine Buttons -->
