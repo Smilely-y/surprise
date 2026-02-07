@@ -75,7 +75,7 @@ renderPage();
 function yesAnswer(e) {
   e.stopPropagation();
   document.getElementById("response").innerHTML =
-    "YAY 😍 Happy Valentine’s Day, goofball 💕";
+    "YAY 😍 Happy Valentine’s Day, goofball! See you soon babe💕";
 
   const music = document.getElementById("bgm");
   if (!music) return;
