@@ -18,7 +18,7 @@ let typing = false;
 const pages = [
   { title: "Hey Lynnie 💕", text: "Hi goofball\nYes, YOU.\n\nClick 💗" },
   { title: "About You 🌻", text: "You trip on air\nHave a goldfish memory\n\nYet somehow I adore every single thing about you." },
-  { title: "Why You 💖", text: "You make me smile and laugh everytime I think of you\nYou really supportive and caring for me" },
+  { title: "Why You 💖", text: "You make me smile and laugh everytime I think of you\nYou are really supportive and caring for me" },
   { title: "Memories We Made 📸", text: "Some of my favourite moments with you below <3" },
   { title: "One Last Thing 💌", text: "So I was wondering…" },
   { title: "Lynnie 💘", text: "Lynnie, will you be my Valentine?" }
