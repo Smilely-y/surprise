@@ -43,13 +43,13 @@ function typeText(text, i = 0) {
 
 /* Render page */
 function renderPage() {
-  titleEl.innerHTML = pages[page].title;
   galleryEl.classList.add("hidden");
   buttonsEl.classList.add("hidden");
 
+  titleEl.innerHTML = pages[page].title;
   typeText(pages[page].text);
 
-  if (pages[page].title.includes("Memories")) {
+  if (page === 3) {
     galleryEl.classList.remove("hidden");
   }
 
@@ -59,7 +59,7 @@ function renderPage() {
   }
 }
 
-/* Click to go next */
+/* Next page on click */
 function nextPage() {
   if (typing) return;
   if (page < pages.length - 1) {
@@ -71,7 +71,7 @@ function nextPage() {
 /* Initial load */
 renderPage();
 
-/* 💖 Yes button + music fade-in */
+/* 💖 Yes button */
 function yesAnswer(e) {
   e.stopPropagation();
   document.getElementById("response").innerHTML =
